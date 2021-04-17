@@ -1,0 +1,53 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+  float: left;
+  margin-left:-29vh;
+  margin-top:-29vh;
+  }
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4)),url(bank1.jpg);
+    background-position: center;
+    height:100vh;
+    background-size: cover;
+
+}
+.topnav a{
+    margin-top: 20px;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 8px 25px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 550;
+  transition: 0.4s ease;
+
+}
+
+.topnav a:hover {
+    background-color:darkcyan;
+    color: white;
+  }
+
+  .topnav {
+    overflow: hidden;
+  }
+
+  .main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.liv a{
+    background-color:darkcyan;
+    color: white;
+  }
+
